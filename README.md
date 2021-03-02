@@ -3,7 +3,7 @@
 ## Clone
 
 ```
-git clone https://github.com/tchala120/vue-3-with-typescript-eslint-prettier-antd-template.git && cd vue-3-with-typescript-eslint-prettier-template
+git clone https://github.com/tchala120/vue-3-with-typescript-eslint-prettier-antd-template.git && cd vue-3-with-typescript-eslint-prettier-antd-template
 ```
 
 ## Project setup
