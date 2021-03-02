@@ -1,29 +1,19 @@
-# vue-3-with-typescript-eslint-prettier-antd-template
+# Vue3 with Typescript Eslint Prettier and Ant Design Template
+
+## Clone
+
+```
+git clone https://github.com/tchala120/vue-3-with-typescript-eslint-prettier-antd-template.git && cd vue-3-with-typescript-eslint-prettier-template
+```
 
 ## Project setup
+
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Run Project
+
 ```
 yarn serve
 ```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
