@@ -1,18 +1,19 @@
+import { Component } from 'vue'
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 
-import Home from '@/pages/Home.vue'
-import About from '@/pages/About.vue'
+import Todo from '@/pages/Todo.vue'
+declare module 'vue-router' {
+  interface RouteMeta {
+    requiredAuth?: boolean
+    layout: Component
+  }
+}
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    name: 'Home',
-    component: Home,
-  },
-  {
-    path: '/about',
-    name: 'About',
-    component: About,
+    name: 'Todo',
+    component: Todo,
   },
 ]
 
@@ -20,5 +21,4 @@ const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
 })
-
 export default router
